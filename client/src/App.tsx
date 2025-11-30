@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div>
-      fiXmArgeLater
+      <h1>fiXmArgeLater</h1>
       <textarea
         placeholder="Type text here..."
         value={fromText}
@@ -50,6 +50,24 @@ function App() {
         value={toText}
         readOnly
       />
+      <div>
+        by{" "}
+        <a
+          href="https://x.com/xfoopy"
+          target="_blank"
+          rel="noreferrer"
+        >
+          xfoopy
+        </a>{" "}
+        |{" "}
+        <a
+          href="https://github.com/Foopy969/fixmargelater"
+          target="_blank"
+          rel="noreferrer"
+        >
+          source code
+        </a>
+      </div>
     </div>
   );
 }
