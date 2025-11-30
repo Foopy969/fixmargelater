@@ -1,2 +1,3 @@
 server/data/dictionary.json
 .env
+server/data/translation-cache.json
