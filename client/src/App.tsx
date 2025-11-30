@@ -50,7 +50,7 @@ function App() {
         value={toText}
         readOnly
       />
-      <div>
+      <div style={{display: "inline"}}>
         by{" "}
         <a
           href="https://x.com/xfoopy"
